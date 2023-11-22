@@ -3,9 +3,9 @@ using namespace std;
 
 int main(){
 	short szerokosc, wysokosc;
-	cout << "Podaj szerokość: ";
+	cout << "Podaj szerokosc: ";
 	cin >> szerokosc;
-	cout << "Podaj wysokość: ";
+	cout << "Podaj wysokosc: ";
 	cin >> wysokosc;
 
 
