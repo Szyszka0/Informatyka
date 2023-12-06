@@ -6,16 +6,11 @@ int main(){
 	for(int i=0; i<5; i++){
 		cin >> tablica[ i ];
 		
-		
-	
-	
-	}
-	cout << "Liczby parzyste: ";
-	for(int i=0; i<5; i++){
-		if (tablica[ i ]%2 == 0){
-			cout << tablica[ i ] << ", ";
-		}
-	}
-	
-
 }
+cout << "Liczby na odwrot: ";
+for(int i=4; i>=0; i--){
+	cout << tablica[ i ] << ", ";
+}
+}
+
+		
