@@ -9,11 +9,11 @@ int main(){
 	cout << "Liczby ujemne zamienione na 0: ";
 	for(int i=0; i<5; i++){
 		if(tablica[ i ] <= 0){
-			cout << "0";
+			cout << "0 ";
 		
 	
 			
 		}
-		else cout << tablica [ i ];
+		else cout << tablica [ i ] << ", ";
 	}
 }
