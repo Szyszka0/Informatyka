@@ -26,7 +26,7 @@ int main(){
 	string wybor_wydawnictwo;
 	int wybor;
 	cout << "Witaj w ksiegarnii" << endl;
-	cout << "Po jakiej kategorii chcil bys wyszkuac ksiazke: " << endl << "1. Rok wydania " << endl << "2. Cena " << endl << "3. Wydawnictwo " << endl << "0. Wyjscie" << endl;
+	cout << "Po jakiej kategorii chcial bys wyszkuac ksiazke: " << endl << "1. Rok wydania " << endl << "2. Cena " << endl << "3. Wydawnictwo " << endl << "0. Wyjscie" << endl;
 	
 	cin >> wybor;
 	switch (wybor)
@@ -62,13 +62,14 @@ int main(){
 			cout << "Podaj od jakiego wydawnctwa chcesz zobaczyc ksiazki: ";
 		cin >> wybor_wydawnictwo;
 		for(int i = 0; i < 7; i++){
-			if (ksiazki_DDT[i].wydawnictwo >= wybor_wydawnictwo){
+			if (ksiazki_DDT[i].wydawnictwo == wybor_wydawnictwo){
 			cout << ksiazki_DDT[i].tytul << "	" << ksiazki_DDT[i].autor << "	" << ksiazki_DDT[i].rok << "	" << ksiazki_DDT[i].wydawnictwo << endl;
 	}
 }
 		break;
 		
 			case 0:
+				return 0;
 			
 			
 		break;
