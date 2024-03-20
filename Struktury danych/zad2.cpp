@@ -26,7 +26,7 @@ int main(){
 	string wybor_wydawnictwo;
 	int wybor;
 	cout << "Witaj w ksiegarnii" << endl;
-	cout << "Po jakiej kategorii chcil bys wyszkuac ksiazke: " << endl << "1. Rok wydania " << endl << "2. Cena " << endl << "3. Wydawnictwo " << endl << "0. Wyjscie" << endl;
+	cout << "Po jakiej kategorii chcial bys wyszkuac ksiazke: " << endl << "1. Rok wydania " << endl << "2. Cena " << endl << "3. Wydawnictwo " << endl << "0. Wyjscie" << endl;
 	
 	cin >> wybor;
 	switch (wybor)
