@@ -49,7 +49,7 @@ int main(){
 		cin >> wybor_cena;
 		for(int i = 0; i < 7; i++){
 			if (ksiazki_DDT[i].cena >= wybor_cena){
-			cout << ksiazki_DDT[i].tytul << "	" << ksiazki_DDT[i].autor << "	" << ksiazki_DDT[i].autor << "	" << ksiazki_DDT[i].rok << "	" << ksiazki_DDT[i].wydawnictwo << ksiazki_DDT[i].cena << endl;
+			cout << ksiazki_DDT[i].tytul << "	" << ksiazki_DDT[i].autor <<  "	" << ksiazki_DDT[i].rok << "	" << ksiazki_DDT[i].wydawnictwo << "	" << ksiazki_DDT[i].cena << endl;
 			}
 		}
 			
@@ -64,7 +64,8 @@ int main(){
 		for(int i = 0; i < 7; i++){
 			if (ksiazki_DDT[i].wydawnictwo >= wybor_wydawnictwo){
 			cout << ksiazki_DDT[i].tytul << "	" << ksiazki_DDT[i].autor << "	" << ksiazki_DDT[i].autor << "	" << ksiazki_DDT[i].rok << "	" << ksiazki_DDT[i].wydawnictwo << endl;
-			
+	}
+}
 		break;
 		
 			case 0:
