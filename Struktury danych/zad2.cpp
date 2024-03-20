@@ -62,7 +62,7 @@ int main(){
 			cout << "Podaj od jakiego wydawnctwa chcesz zobaczyc ksiazki: ";
 		cin >> wybor_wydawnictwo;
 		for(int i = 0; i < 7; i++){
-			if (ksiazki_DDT[i].wydawnictwo >= wybor_wydawnictwo){
+			if (ksiazki_DDT[i].wydawnictwo = wybor_wydawnictwo){
 			cout << ksiazki_DDT[i].tytul << "	" << ksiazki_DDT[i].autor << "	" << ksiazki_DDT[i].rok << "	" << ksiazki_DDT[i].wydawnictwo << endl;
 	}
 }
