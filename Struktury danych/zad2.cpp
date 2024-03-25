@@ -1,6 +1,31 @@
 #include <iostream>
 using namespace std;
 
+void funkcja1(short wybor_rok) {
+	cin >> wybor_rok;
+		for(int i = 0; i < 7; i++){
+			if (ksiazki_DDT[i].rok >= wybor_rok){
+			cout << ksiazki_DDT[i].tytul << "	" << ksiazki_DDT[i].autor << "	" << ksiazki_DDT[i].autor << "	" << ksiazki_DDT[i].rok << "	" << ksiazki_DDT[i].wydawnictwo << endl;
+			}
+}
+}
+void funkcja2(float wybor_cena) {
+	cin >> wybor_cena;
+		for(int i = 0; i < 7; i++){
+			if (ksiazki_DDT[i].cena >= wybor_cena){
+			cout << ksiazki_DDT[i].tytul << "	" << ksiazki_DDT[i].autor <<  "	" << ksiazki_DDT[i].rok << "	" << ksiazki_DDT[i].wydawnictwo << "	" << ksiazki_DDT[i].cena << endl;
+			}
+		}
+}
+void funkcja3(string wybor_wydawnictwo){
+	cin >> wybor_wydawnictwo;
+		for(int i = 0; i < 7; i++){
+			if (ksiazki_DDT[i].wydawnictwo == wybor_wydawnictwo){
+			cout << ksiazki_DDT[i].tytul << "	" << ksiazki_DDT[i].autor << "	" << ksiazki_DDT[i].rok << "	" << ksiazki_DDT[i].wydawnictwo << endl;
+	}
+}
+}
+
 struct ksiazki_DDT {
 
 string tytul;
