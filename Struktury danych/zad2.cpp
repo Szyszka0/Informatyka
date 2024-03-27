@@ -9,7 +9,7 @@ int rok;
 string wydawnictwo;
 float cena;
 
-};
+}
 
 ksiazki_DDT[ 7 ] =
 {
@@ -24,8 +24,8 @@ ksiazki_DDT[ 7 ] =
 
 void funkcja1(short *wsk1,struct ksiazki_DDT[ 7 ]) {
 		for(int i = 0; i < 7; i++){
-			if (ksiazki_DDT[i].rok >= *wsk1){
-			cout << ksiazki_DDT[i].tytul << "	" << ksiazki_DDT[i].autor << "	" << ksiazki_DDT[i].autor << "	" << ksiazki_DDT[i].rok << "	" << ksiazki_DDT[i].wydawnictwo << endl;
+			if (ksiazki_DDT[ i ].rok >= *wsk1){
+			cout << ksiazki_DDT[ i ].tytul << "	" << ksiazki_DDT[i].autor << "	" << ksiazki_DDT[i].autor << "	" << ksiazki_DDT[i].rok << "	" << ksiazki_DDT[i].wydawnictwo << endl;
 			}
 }
 }
@@ -38,8 +38,7 @@ void funkcja2(float *wsk2,struct ksiazki_DDT[ 7 ]) {
 		}
 }
 void funkcja3(string *wsk3,struct ksiazki_DDT[ 7 ]){
-	cout << "Podaj od jakiego wydawnictwa chcesz zobaczyc ksiazki: ";
-	cin >> wybor_wydawnictwo;
+
 		for(int i = 0; i < 7; i++){
 			if (ksiazki_DDT[i].wydawnictwo == *wsk3){
 			cout << ksiazki_DDT[i].tytul << "	" << ksiazki_DDT[i].autor << "	" << ksiazki_DDT[i].rok << "	" << ksiazki_DDT[i].wydawnictwo << endl;
@@ -67,7 +66,7 @@ int main(){
 	case 1:
 		cout << "Podaj od jakiego roku chcesz zobaczyc ksiazki: ";
 	cin >> wybor_rok;
-		funkcja1(short 
+		funkcja1()
 		break;
 			
 	case 2:
